@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  google-drive-rag:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      # Mount credentials (create this file first)
+      - ./credentials.json:/app/credentials.json:ro
+      # Persistent storage for ChromaDB
+      - ./rag_storage:/app/rag_storage
+      # Persistent file tracking
+      - ./processed_files.json:/app/processed_files.json
+      # Environment variables
+      - ./.env:/app/.env:ro
+    environment:
+      - SERVER_HOST=0.0.0.0
+      - SERVER_PORT=7860
+      - GOOGLE_CREDENTIALS_PATH=/app/credentials.json
+      - PERSIST_DIRECTORY=/app/rag_storage
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # Optional: Add a simple web proxy if needed
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - google-drive-rag
+    restart: unless-stopped
+    profiles:
+      - proxy
