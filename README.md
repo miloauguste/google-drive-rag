@@ -23,8 +23,8 @@ A complete Retrieval-Augmented Generation (RAG) system that processes documents 
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd week5
+git clone https://github.com/milo/google-drive-rag.git
+cd google-drive-rag
 ```
 
 2. **Install dependencies**

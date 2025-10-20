@@ -48,7 +48,7 @@ We welcome feature suggestions! Please:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/google-drive-rag.git
+git clone https://github.com/milo/google-drive-rag.git
 cd google-drive-rag
 
 # Create virtual environment
@@ -237,8 +237,8 @@ Never commit:
 
 ## Questions?
 
-- Check existing [issues and discussions](https://github.com/yourusername/google-drive-rag/issues)
-- Start a [new discussion](https://github.com/yourusername/google-drive-rag/discussions)
-- Review the [project wiki](https://github.com/yourusername/google-drive-rag/wiki)
+- Check existing [issues and discussions](https://github.com/milo/google-drive-rag/issues)
+- Start a [new discussion](https://github.com/milo/google-drive-rag/discussions)
+- Review the [project wiki](https://github.com/milo/google-drive-rag/wiki)
 
 Thank you for contributing to the Google Drive RAG System! 🚀

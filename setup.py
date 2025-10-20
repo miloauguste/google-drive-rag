@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="google-drive-rag",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Milo",
+    author_email="miloauguste@gmail.com",
     description="A complete RAG system for Google Drive documents using Ollama and ChromaDB",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/google-drive-rag",
+    url="https://github.com/milo/google-drive-rag",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -58,8 +58,8 @@ setup(
     },
     keywords="rag, retrieval-augmented-generation, google-drive, ollama, chromadb, nlp, ai",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/google-drive-rag/issues",
-        "Source": "https://github.com/yourusername/google-drive-rag",
-        "Documentation": "https://github.com/yourusername/google-drive-rag/wiki",
+        "Bug Reports": "https://github.com/milo/google-drive-rag/issues",
+        "Source": "https://github.com/milo/google-drive-rag",
+        "Documentation": "https://github.com/milo/google-drive-rag/wiki",
     },
 )

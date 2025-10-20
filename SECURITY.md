@@ -16,7 +16,7 @@ We take security seriously. If you discover a security vulnerability, please fol
 
 Instead, please:
 
-1. **Email us directly** at [security@example.com]
+1. **Email us directly** at [miloauguste@gmail.com]
 2. **Include the following information:**
    - Detailed description of the vulnerability
    - Steps to reproduce the issue
@@ -201,9 +201,9 @@ This application is designed to be compliant with:
 
 For security-related questions or concerns:
 
-- **Security Email**: [security@example.com]
-- **General Issues**: [GitHub Issues](https://github.com/yourusername/google-drive-rag/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/google-drive-rag/discussions)
+- **Security Email**: [miloauguste@gmail.com]
+- **General Issues**: [GitHub Issues](https://github.com/milo/google-drive-rag/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/milo/google-drive-rag/discussions)
 
 ---
 
